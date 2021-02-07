@@ -13,3 +13,18 @@ main {
     justify-content: center;
     align-items: center;
 }
+
+table {
+    width: 500px;
+    height: 500px;
+    background: rgb(99, 67, 187);
+    border-collapse: separate;
+    border-spacing: 20px;
+}
+
+td {
+    background: white;
+    width: 18%;
+    height: 18%;
+}
+
