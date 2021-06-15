@@ -19,6 +19,11 @@ function createSquareBlocks(squareSide) {
     document.querySelector("main").appendChild(table)
     
     createTableRow(squareSide)
+
+    document.querySelectorAll("td").forEach(item => {
+        item.addEventListener("mouseover", changeColor)
+        item.addEventListener("mouseout", whiteOn)
+    })
 }
 
 function createTableRow(squareSide) {
