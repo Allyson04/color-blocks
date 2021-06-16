@@ -23,6 +23,9 @@ function createSquareBlocks(squareSide) {
     document.querySelectorAll("td").forEach(item => {
         item.addEventListener("mouseover", changeColor)
         item.addEventListener("mouseout", whiteOn)
+        item.addEventListener("click", event => {
+            item.replaceWith(item.cloneNode(true));
+        })
     })
 }
 
