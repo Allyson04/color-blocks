@@ -11,7 +11,7 @@ function whiteOn() {
 
 function createSquareBlocks(squareSide) {
     templateBlock = `
-    <td onmouseover="changeColor()" onmouseout="whiteOn()" class="squareTable"></td>
+    <td class="squareTable"></td>
     `
 
     table = document.createElement("table")
